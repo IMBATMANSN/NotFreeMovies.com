@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NOTFREEMOVIES.com</title>
+    <style>
+        body {
+            background-color: #000000; /* Background color set to black */
+            font-family: Arial, sans-serif; /* Font style */
+            text-align: center; /* Center-aligns text */
+            color: #ffffff; /* Text color set to white for contrast */
+            margin: 0; /* Remove default margin from body */
+        }
+        .container {
+            display: flex; /* Enables flexbox layout */
+            justify-content: space-around; /* Space between columns */
+            padding: 20px; /* Padding around the container */
+        }
+        .block {
+            background-color: #000000; /* Block background color set to black */
+            border: 2px solid #cccccc; /* Block border color */
+            border-radius: 10px; /* Rounded corners */
+            width: 300px; /* Width of each block */
+            height: 300px; /* Height of each block for square shape */
+            display: flex; /* Enables flexbox for the block */
+            flex-direction: column; /* Aligns children in a column */
+            justify-content: center; /* Centers children vertically */
+            align-items: center; /* Centers children horizontally */
+            margin: 10px; /* Margin around each block */
+            padding: 0; /* Padding inside each block set to 0 */
+        }
+        img {
+            max-width: 100%; /* Ensures images don't overflow */
+            max-height: 100%; /* Ensures images fit within block */
+            object-fit: cover; /* Crops the image to cover the block */
+            border-radius: 5px; /* Rounded corners for images */
+            display: block; /* Makes the image a block element */
+        }
+        a {
+            text-decoration: none; /* Removes underline from links */
+            color: #ffffff; /* Link color set to white for contrast */
+            margin-top: 10px; /* Margin above links */
+        }
+    </style>
+</head>
+<body>
+    <h1>NotFreeMovies</h1>
+    <div class="container">
+        <div class="block">
+            <a href="https://hianime.to/" target="_blank">
+                <img src="h!anime.PNG" alt="Anime Image">
+            </a>
+            <a href="https://hianime.to/" target="_blank">HiAnime</a>
+        </div>
+        <div class="block">
+            <a href="https://soap2day.ist/home" target="_blank">
+                <img src="Soap2Day.JPEG" alt="Description 2">
+            </a>
+            <a href="https://example.com/link2" target="_blank">Link 2 Title</a>
+        </div>
+        <div class="block">
+            <a href="https://mangafire.to/home" target="_blank">
+                <img src="MangaFire.PNG" alt="MangaFire Image"> <!-- Replace with actual image -->
+            </a>
+            <a href="https://mangafire.to/home" target="_blank">MangaFire</a>
+        </div>
+    </div>
+</body>
+</html>
